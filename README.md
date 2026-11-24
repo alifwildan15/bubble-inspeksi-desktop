@@ -1,1 +1,41 @@
-IyBCdWJibGUgSW5zcGVrc2kgKFdpbmRvd3MpCgpBcGxpa2FzaSBkZXNrdG9wIFdpbmRvd3MgdW50dWsgbWVtYmVyaSBub21vciBidWJibGUgcGFkYSBnYW1iYXIgUERGCihpbnNwZWN0aW9uIGJhbGxvb25pbmcpIGRhbiBtZW5nZWtzcG9yIGhhc2lsbnlhIGtlIFBERi4KCiMjIENhcmEgcGFrYWkKCjEuIEJ1a2EgUERGIGdhbWJhciAobWVudSBGaWxlIOKGkiBCdWthIFBERiwgYXRhdSBzZXJldCBmaWxlIFBERiBrZSBqZW5kZWxhKS4KMi4gS2xpayBwYWRhIGdhbWJhciB1bnR1ayBtZW1hc2FuZyBidWJibGUg4oCUIG5vbW9ybnlhIG90b21hdGlzIGJlcnVydXRhbi4KMy4gR2VzZXIgYnViYmxlIHVudHVrIG1lbWluZGFoa2FuLCBrbGlrIGxhbHUgdGVrYW4gRGVsZXRlIHVudHVrIG1lbmdoYXB1cy4KICAgVG9tYm9sIOKGkSAvIOKGkyBkaSBkYWZ0YXIgYnViYmxlIG1lbmd1YmFoIHVydXRhbiAobm9tb3IgbWVueWVzdWFpa2FuIHNlbmRpcmkpLgo0LiBBdHVyIG5vbW9yIGF3YWwsIGF3YWxhbiBub21vciwgdWt1cmFuIGRhbiB3YXJuYSBidWJibGUgZGkgcGFuZWwga2FuYW4uCjUuIFpvb206IHRvbWJvbCArL+KIkiwgc2xpZGVyLCBDdHJsK3Njcm9sbCwgYXRhdSBjdWJpdCAocGluY2gpIGRpIGxheWFyIHNlbnR1aC4KNi4gRWtzcG9yIFBERiAoQ3RybCtFKSDigJQgZ2FtYmFyIGFzbGkgZGVuZ2FuIGJ1YmJsZSBub21vciB0ZXJjZXRhayBkaQogICBwb3Npc2lueWEsIHRlcnNpbXBhbiBzZWJhZ2FpIGA8bmFtYS1maWxlPi1idWJibGUucGRmYC4KCkJ1YmJsZSB0ZXJzaW1wYW4gb3RvbWF0aXMgZGkga29tcHV0ZXIgKHBlciBuYW1hIGZpbGUgUERGKTogYnVrYSBsYWdpIFBERgp5YW5nIHNhbWEgZGFuIGJ1YmJsZSBzZWJlbHVtbnlhIGFrYW4gZGlwdWxpaGthbi4KCiMjIFVuZHVoIGluc3RhbGxlcgoKQnVrYSB0YWIgKipBY3Rpb25zKiogZGkgcmVwbyBpbmkg4oaSIGphbGFua2FuIHdvcmtmbG93ICoqQnVpbGQgV2luZG93cyoqIHlhbmcKdGVyYmFydSDihpIgdW5kdWggYXJ0aWZhY3QgKipCdWJibGUtSW5zcGVrc2ktV2luZG93cyoqIOKGkiBqYWxhbmthbiBmaWxlCmBCdWJibGUgSW5zcGVrc2kgU2V0dXAgMS4wLjAuZXhlYC4KCiMjIEJhbmd1biBzZW5kaXJpIChXaW5kb3dzKQoKQnV0dWggTm9kZS5qcyAyMCsuCgpgYGBiYXQKbnBtIGNpCm5wbSB0ZXN0Cm5wbSBydW4gZGlzdApgYGAKCkluc3RhbGxlciBhZGEgZGkgZm9sZGVyIGBkaXN0L2AuCgojIyBUZWtub2xvZ2kKCkVsZWN0cm9uICsgUERGLmpzICh0YW1waWwgUERGKSArIHBkZi1saWIgKGdhbWJhciBidWJibGUga2UgUERGIGhhc2lsKS4KVGlkYWsgYnV0dWggaW50ZXJuZXQgc2FhdCBkaXBha2FpIOKAlCBzZW11YSBiZXJqYWxhbiBsb2thbC4K
+# Bubble Inspeksi (Windows)
+
+Aplikasi desktop Windows untuk memberi nomor bubble pada gambar PDF
+(inspection ballooning) dan mengekspor hasilnya ke PDF.
+
+## Cara pakai
+
+1. Buka PDF gambar (menu File → Buka PDF, atau seret file PDF ke jendela).
+2. Klik pada gambar untuk memasang bubble — nomornya otomatis berurutan.
+3. Geser bubble untuk memindahkan, klik lalu tekan Delete untuk menghapus.
+   Tombol ↑ / ↓ di daftar bubble mengubah urutan (nomor menyesuaikan sendiri).
+4. Atur nomor awal, awalan nomor, ukuran dan warna bubble di panel kanan.
+5. Zoom: tombol +/−, slider, Ctrl+scroll, atau cubit (pinch) di layar sentuh.
+6. Ekspor PDF (Ctrl+E) — gambar asli dengan bubble nomor tercetak di
+   posisinya, tersimpan sebagai `<nama-file>-bubble.pdf`.
+
+Bubble tersimpan otomatis di komputer (per nama file PDF): buka lagi PDF
+yang sama dan bubble sebelumnya akan dipulihkan.
+
+## Unduh installer
+
+Buka tab **Actions** di repo ini → jalankan workflow **Build Windows** yang
+terbaru → unduh artifact **Bubble-Inspeksi-Windows** → jalankan file
+`Bubble Inspeksi Setup 1.0.0.exe`.
+
+## Bangun sendiri (Windows)
+
+Butuh Node.js 20+.
+
+```bat
+npm ci
+npm test
+npm run dist
+```
+
+Installer ada di folder `dist/`.
+
+## Teknologi
+
+Electron + PDF.js (tampil PDF) + pdf-lib (gambar bubble ke PDF hasil).
+Tidak butuh internet saat dipakai — semua berjalan lokal.
