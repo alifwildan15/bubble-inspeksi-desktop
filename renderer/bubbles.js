@@ -1,1 +1,75 @@
-LyogTWFuYWplbWVuIGJ1YmJsZTogcGVub21vcmFuIG90b21hdGlzLCB1cnV0a2FuIHVsYW5nLCBoYXB1cy4KICAgTW9kdWwgbXVybmkgdGFucGEgRE9NLCBiaXNhIGRpdWppIGRpIE5vZGUuCiAgIEJ1YmJsZTogeyBpZCwgcGFnZSwgeCwgeSB9IGRlbmdhbiB4LHkgcGVjYWhhbiAwLi4xIGRhcmkgdWt1cmFuIGhhbGFtYW4uCiAgIE5vbW9yIHRhbXBpbCA9IHByZWZpeCArIChub21vckF3YWwgKyBpbmRla3MgdXJ1dGFuKS4gKi8KKGZ1bmN0aW9uIChyb290LCBmYWN0b3J5KSB7CiAgY29uc3QgYXBpID0gZmFjdG9yeSgpOwogIGlmICh0eXBlb2YgbW9kdWxlICE9PSAndW5kZWZpbmVkJyAmJiBtb2R1bGUuZXhwb3J0cykgbW9kdWxlLmV4cG9ydHMgPSBhcGk7CiAgZWxzZSByb290LkJ1YmJsZVN0b3JlID0gYXBpOwp9KSh0eXBlb2Ygc2VsZiAhPT0gJ3VuZGVmaW5lZCcgPyBzZWxmIDogdGhpcywgZnVuY3Rpb24gKCkgewogIGxldCBuZXh0SWQgPSAxOwoKICBmdW5jdGlvbiBjcmVhdGVTdG9yZSgpIHsKICAgIHJldHVybiB7IGJ1YmJsZXM6IFtdLCBub21vckF3YWw6IDEsIHByZWZpeDogJycgfTsKICB9CgogIGZ1bmN0aW9uIGxhYmVsKHN0b3JlLCBpbmRleCkgewogICAgcmV0dXJuIHN0b3JlLnByZWZpeCArIFN0cmluZyhzdG9yZS5ub21vckF3YWwgKyBpbmRleCk7CiAgfQoKICBmdW5jdGlvbiBsYWJlbHMoc3RvcmUpIHsKICAgIHJldHVybiBzdG9yZS5idWJibGVzLm1hcCgoXywgaSkgPT4gbGFiZWwoc3RvcmUsIGkpKTsKICB9CgogIGZ1bmN0aW9uIGFkZChzdG9yZSwgcGFnZSwgeCwgeSwgY29sb3IpIHsKICAgIGNvbnN0IGJ1YmJsZSA9IHsgaWQ6IG5leHRJZCsrLCBwYWdlLCB4LCB5LCBjb2xvcjogY29sb3IgfHwgJyNkMzJmMmYnIH07CiAgICBzdG9yZS5idWJibGVzLnB1c2goYnViYmxlKTsKICAgIHJldHVybiBidWJibGU7CiAgfQoKICBmdW5jdGlvbiByZW1vdmUoc3RvcmUsIGlkKSB7CiAgICBjb25zdCBpID0gc3RvcmUuYnViYmxlcy5maW5kSW5kZXgoKGIpID0+IGIuaWQgPT09IGlkKTsKICAgIGlmIChpID09PSAtMSkgcmV0dXJuIGZhbHNlOwogICAgc3RvcmUuYnViYmxlcy5zcGxpY2UoaSwgMSk7CiAgICByZXR1cm4gdHJ1ZTsKICB9CgogIGZ1bmN0aW9uIG1vdmUoc3RvcmUsIGlkLCBkaXJlY3Rpb24pIHsKICAgIGNvbnN0IGkgPSBzdG9yZS5idWJibGVzLmZpbmRJbmRleCgoYikgPT4gYi5pZCA9PT0gaWQpOwogICAgaWYgKGkgPT09IC0xKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBqID0gaSArIGRpcmVjdGlvbjsKICAgIGlmIChqIDwgMCB8fCBqID49IHN0b3JlLmJ1YmJsZXMubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCB0bXAgPSBzdG9yZS5idWJibGVzW2ldOwogICAgc3RvcmUuYnViYmxlc1tpXSA9IHN0b3JlLmJ1YmJsZXNbal07CiAgICBzdG9yZS5idWJibGVzW2pdID0gdG1wOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICBmdW5jdGlvbiBieVBhZ2Uoc3RvcmUsIHBhZ2UpIHsKICAgIHJldHVybiBzdG9yZS5idWJibGVzCiAgICAgIC5tYXAoKGIsIGkpID0+ICh7IGJ1YmJsZTogYiwgaW5kZXg6IGkgfSkpCiAgICAgIC5maWx0ZXIoKGVudHJ5KSA9PiBlbnRyeS5idWJibGUucGFnZSA9PT0gcGFnZSk7CiAgfQoKICBmdW5jdGlvbiBzZXJpYWxpemUoc3RvcmUpIHsKICAgIHJldHVybiB7CiAgICAgIGJ1YmJsZXM6IHN0b3JlLmJ1YmJsZXMubWFwKChiKSA9PiAoeyBpZDogYi5pZCwgcGFnZTogYi5wYWdlLCB4OiBiLngsIHk6IGIueSwgY29sb3I6IGIuY29sb3IgfSkpLAogICAgICBub21vckF3YWw6IHN0b3JlLm5vbW9yQXdhbCwKICAgICAgcHJlZml4OiBzdG9yZS5wcmVmaXgsCiAgICB9OwogIH0KCiAgZnVuY3Rpb24gZGVzZXJpYWxpemUoZGF0YSkgewogICAgY29uc3Qgc3RvcmUgPSBjcmVhdGVTdG9yZSgpOwogICAgc3RvcmUubm9tb3JBd2FsID0gZGF0YS5ub21vckF3YWwgfHwgMTsKICAgIHN0b3JlLnByZWZpeCA9IGRhdGEucHJlZml4IHx8ICcnOwogICAgc3RvcmUuYnViYmxlcyA9IChkYXRhLmJ1YmJsZXMgfHwgW10pLm1hcCgoYikgPT4gKHsKICAgICAgaWQ6IGIuaWQsIHBhZ2U6IGIucGFnZSwgeDogYi54LCB5OiBiLnksIGNvbG9yOiBiLmNvbG9yIHx8ICcjZDMyZjJmJywKICAgIH0pKTsKICAgIGNvbnN0IG1heElkID0gc3RvcmUuYnViYmxlcy5yZWR1Y2UoKG0sIGIpID0+IE1hdGgubWF4KG0sIGIuaWQpLCAwKTsKICAgIG5leHRJZCA9IE1hdGgubWF4KG5leHRJZCwgbWF4SWQgKyAxKTsKICAgIHJldHVybiBzdG9yZTsKICB9CgogIHJldHVybiB7IGNyZWF0ZVN0b3JlLCBsYWJlbCwgbGFiZWxzLCBhZGQsIHJlbW92ZSwgbW92ZSwgYnlQYWdlLCBzZXJpYWxpemUsIGRlc2VyaWFsaXplIH07Cn0pOwo=
+/* Manajemen bubble: penomoran otomatis, urutkan ulang, hapus.
+   Modul murni tanpa DOM, bisa diuji di Node.
+   Bubble: { id, page, x, y } dengan x,y pecahan 0..1 dari ukuran halaman.
+   Nomor tampil = prefix + (nomorAwal + indeks urutan). */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.BubbleStore = api;
+})(typeof self !== 'undefined' ? self : this, function () {
+  let nextId = 1;
+
+  function createStore() {
+    return { bubbles: [], nomorAwal: 1, prefix: '' };
+  }
+
+  function label(store, index) {
+    return store.prefix + String(store.nomorAwal + index);
+  }
+
+  function labels(store) {
+    return store.bubbles.map((_, i) => label(store, i));
+  }
+
+  function add(store, page, x, y, color) {
+    const bubble = { id: nextId++, page, x, y, color: color || '#d32f2f' };
+    store.bubbles.push(bubble);
+    return bubble;
+  }
+
+  function remove(store, id) {
+    const i = store.bubbles.findIndex((b) => b.id === id);
+    if (i === -1) return false;
+    store.bubbles.splice(i, 1);
+    return true;
+  }
+
+  function move(store, id, direction) {
+    const i = store.bubbles.findIndex((b) => b.id === id);
+    if (i === -1) return false;
+    const j = i + direction;
+    if (j < 0 || j >= store.bubbles.length) return false;
+    const tmp = store.bubbles[i];
+    store.bubbles[i] = store.bubbles[j];
+    store.bubbles[j] = tmp;
+    return true;
+  }
+
+  function byPage(store, page) {
+    return store.bubbles
+      .map((b, i) => ({ bubble: b, index: i }))
+      .filter((entry) => entry.bubble.page === page);
+  }
+
+  function serialize(store) {
+    return {
+      bubbles: store.bubbles.map((b) => ({ id: b.id, page: b.page, x: b.x, y: b.y, color: b.color })),
+      nomorAwal: store.nomorAwal,
+      prefix: store.prefix,
+    };
+  }
+
+  function deserialize(data) {
+    const store = createStore();
+    store.nomorAwal = data.nomorAwal || 1;
+    store.prefix = data.prefix || '';
+    store.bubbles = (data.bubbles || []).map((b) => ({
+      id: b.id, page: b.page, x: b.x, y: b.y, color: b.color || '#d32f2f',
+    }));
+    const maxId = store.bubbles.reduce((m, b) => Math.max(m, b.id), 0);
+    nextId = Math.max(nextId, maxId + 1);
+    return store;
+  }
+
+  return { createStore, label, labels, add, remove, move, byPage, serialize, deserialize };
+});
