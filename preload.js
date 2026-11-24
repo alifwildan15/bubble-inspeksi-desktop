@@ -1,1 +1,13 @@
-Y29uc3QgeyBjb250ZXh0QnJpZGdlLCBpcGNSZW5kZXJlciB9ID0gcmVxdWlyZSgnZWxlY3Ryb24nKTsKCmNvbnRleHRCcmlkZ2UuZXhwb3NlSW5NYWluV29ybGQoJ2VsZWN0cm9uQVBJJywgewogIG9wZW5QZGY6ICgpID0+IGlwY1JlbmRlcmVyLmludm9rZSgnZGlhbG9nOm9wZW5QZGYnKSwKICBzYXZlUGRmOiAoZGVmYXVsdE5hbWUpID0+IGlwY1JlbmRlcmVyLmludm9rZSgnZGlhbG9nOnNhdmVQZGYnLCBkZWZhdWx0TmFtZSksCiAgd3JpdGVGaWxlOiAoZmlsZVBhdGgsIGRhdGEpID0+IGlwY1JlbmRlcmVyLmludm9rZSgnZmlsZTp3cml0ZScsIGZpbGVQYXRoLCBkYXRhKSwKICByZWFkRmlsZTogKGZpbGVQYXRoKSA9PiBpcGNSZW5kZXJlci5pbnZva2UoJ2ZpbGU6cmVhZCcsIGZpbGVQYXRoKSwKICBvbk1lbnVPcGVuOiAoY2IpID0+IGlwY1JlbmRlcmVyLm9uKCdtZW51LW9wZW4tcGRmJywgY2IpLAogIG9uTWVudUV4cG9ydDogKGNiKSA9PiBpcGNSZW5kZXJlci5vbignbWVudS1leHBvcnQtcGRmJywgY2IpLAogIG9uTWVudVpvb21JbjogKGNiKSA9PiBpcGNSZW5kZXJlci5vbignbWVudS16b29tLWluJywgY2IpLAogIG9uTWVudVpvb21PdXQ6IChjYikgPT4gaXBjUmVuZGVyZXIub24oJ21lbnUtem9vbS1vdXQnLCBjYiksCiAgb25NZW51Wm9vbUZpdDogKGNiKSA9PiBpcGNSZW5kZXJlci5vbignbWVudS16b29tLWZpdCcsIGNiKSwKfSk7Cg==
+const { contextBridge, ipcRenderer } = require('electron');
+
+contextBridge.exposeInMainWorld('electronAPI', {
+  openPdf: () => ipcRenderer.invoke('dialog:openPdf'),
+  savePdf: (defaultName) => ipcRenderer.invoke('dialog:savePdf', defaultName),
+  writeFile: (filePath, data) => ipcRenderer.invoke('file:write', filePath, data),
+  readFile: (filePath) => ipcRenderer.invoke('file:read', filePath),
+  onMenuOpen: (cb) => ipcRenderer.on('menu-open-pdf', cb),
+  onMenuExport: (cb) => ipcRenderer.on('menu-export-pdf', cb),
+  onMenuZoomIn: (cb) => ipcRenderer.on('menu-zoom-in', cb),
+  onMenuZoomOut: (cb) => ipcRenderer.on('menu-zoom-out', cb),
+  onMenuZoomFit: (cb) => ipcRenderer.on('menu-zoom-fit', cb),
+});
