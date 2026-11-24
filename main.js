@@ -1,1 +1,124 @@
-Y29uc3QgeyBhcHAsIEJyb3dzZXJXaW5kb3csIE1lbnUsIGRpYWxvZywgaXBjTWFpbiB9ID0gcmVxdWlyZSgnZWxlY3Ryb24nKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwoKbGV0IG1haW5XaW5kb3cgPSBudWxsOwoKZnVuY3Rpb24gY3JlYXRlV2luZG93KCkgewogIG1haW5XaW5kb3cgPSBuZXcgQnJvd3NlcldpbmRvdyh7CiAgICB3aWR0aDogMTI4MCwKICAgIGhlaWdodDogODAwLAogICAgbWluV2lkdGg6IDkwMCwKICAgIG1pbkhlaWdodDogNjAwLAogICAgdGl0bGU6ICdCdWJibGUgSW5zcGVrc2knLAogICAgd2ViUHJlZmVyZW5jZXM6IHsKICAgICAgcHJlbG9hZDogcGF0aC5qb2luKF9fZGlybmFtZSwgJ3ByZWxvYWQuanMnKSwKICAgICAgY29udGV4dElzb2xhdGlvbjogdHJ1ZSwKICAgICAgbm9kZUludGVncmF0aW9uOiBmYWxzZSwKICAgIH0sCiAgfSk7CgogIG1haW5XaW5kb3cubG9hZEZpbGUocGF0aC5qb2luKF9fZGlybmFtZSwgJ3JlbmRlcmVyJywgJ2luZGV4Lmh0bWwnKSk7CgogIGNvbnN0IHRlbXBsYXRlID0gWwogICAgewogICAgICBsYWJlbDogJ0ZpbGUnLAogICAgICBzdWJtZW51OiBbCiAgICAgICAgewogICAgICAgICAgbGFiZWw6ICdCdWthIFBERi4uLicsCiAgICAgICAgICBhY2NlbGVyYXRvcjogJ0NtZE9yQ3RybCtPJywKICAgICAgICAgIGNsaWNrOiAoKSA9PiBtYWluV2luZG93LndlYkNvbnRlbnRzLnNlbmQoJ21lbnUtb3Blbi1wZGYnKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiAnRWtzcG9yIFBERi4uLicsCiAgICAgICAgICBhY2NlbGVyYXRvcjogJ0NtZE9yQ3RybCtFJywKICAgICAgICAgIGNsaWNrOiAoKSA9PiBtYWluV2luZG93LndlYkNvbnRlbnRzLnNlbmQoJ21lbnUtZXhwb3J0LXBkZicpLAogICAgICAgIH0sCiAgICAgICAgeyB0eXBlOiAnc2VwYXJhdG9yJyB9LAogICAgICAgIHsgbGFiZWw6ICdLZWx1YXInLCBhY2NlbGVyYXRvcjogJ0NtZE9yQ3RybCtRJywgcm9sZTogJ3F1aXQnIH0sCiAgICAgIF0sCiAgICB9LAogICAgewogICAgICBsYWJlbDogJ1RhbXBpbGFuJywKICAgICAgc3VibWVudTogWwogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiAnUGVyYmVzYXInLAogICAgICAgICAgYWNjZWxlcmF0b3I6ICdDbWRPckN0cmwrPScsCiAgICAgICAgICBjbGljazogKCkgPT4gbWFpbldpbmRvdy53ZWJDb250ZW50cy5zZW5kKCdtZW51LXpvb20taW4nKSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiAnUGVya2VjaWwnLAogICAgICAgICAgYWNjZWxlcmF0b3I6ICdDbWRPckN0cmwrLScsCiAgICAgICAgICBjbGljazogKCkgPT4gbWFpbldpbmRvdy53ZWJDb250ZW50cy5zZW5kKCdtZW51LXpvb20tb3V0JyksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBsYWJlbDogJ1BhcyBrZSBMZWJhcicsCiAgICAgICAgICBhY2NlbGVyYXRvcjogJ0NtZE9yQ3RybCswJywKICAgICAgICAgIGNsaWNrOiAoKSA9PiBtYWluV2luZG93LndlYkNvbnRlbnRzLnNlbmQoJ21lbnUtem9vbS1maXQnKSwKICAgICAgICB9LAogICAgICBdLAogICAgfSwKICAgIHsKICAgICAgbGFiZWw6ICdCYW50dWFuJywKICAgICAgc3VibWVudTogWwogICAgICAgIHsKICAgICAgICAgIGxhYmVsOiAnVGVudGFuZyBCdWJibGUgSW5zcGVrc2knLAogICAgICAgICAgY2xpY2s6ICgpID0+IHsKICAgICAgICAgICAgZGlhbG9nLnNob3dNZXNzYWdlQm94KG1haW5XaW5kb3csIHsKICAgICAgICAgICAgICB0eXBlOiAnaW5mbycsCiAgICAgICAgICAgICAgdGl0bGU6ICdUZW50YW5nIEJ1YmJsZSBJbnNwZWtzaScsCiAgICAgICAgICAgICAgbWVzc2FnZTogJ0J1YmJsZSBJbnNwZWtzaSAxLjAuMCcsCiAgICAgICAgICAgICAgZGV0YWlsOgogICAgICAgICAgICAgICAgJ0Jlcmkgbm9tb3IgYnViYmxlIHBhZGEgZ2FtYmFyIFBERiBkYW4gZWtzcG9yIGhhc2lsbnlhIGtlIFBERi5cbicgKwogICAgICAgICAgICAgICAgJ0tsaWsgcGFkYSBnYW1iYXIgdW50dWsgbWVtYXNhbmcgYnViYmxlIGJlcm5vbW9yIG90b21hdGlzLicsCiAgICAgICAgICAgIH0pOwogICAgICAgICAgfSwKICAgICAgICB9LAogICAgICBdLAogICAgfSwKICBdOwogIE1lbnUuc2V0QXBwbGljYXRpb25NZW51KE1lbnUuYnVpbGRGcm9tVGVtcGxhdGUodGVtcGxhdGUpKTsKfQoKYXBwLndoZW5SZWFkeSgpLnRoZW4oKCkgPT4gewogIGNyZWF0ZVdpbmRvdygpOwogIGFwcC5vbignYWN0aXZhdGUnLCAoKSA9PiB7CiAgICBpZiAoQnJvd3NlcldpbmRvdy5nZXRBbGxXaW5kb3dzKCkubGVuZ3RoID09PSAwKSBjcmVhdGVXaW5kb3coKTsKICB9KTsKfSk7CgphcHAub24oJ3dpbmRvdy1hbGwtY2xvc2VkJywgKCkgPT4gewogIGlmIChwcm9jZXNzLnBsYXRmb3JtICE9PSAnZGFyd2luJykgYXBwLnF1aXQoKTsKfSk7CgppcGNNYWluLmhhbmRsZSgnZGlhbG9nOm9wZW5QZGYnLCBhc3luYyAoKSA9PiB7CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgZGlhbG9nLnNob3dPcGVuRGlhbG9nKG1haW5XaW5kb3csIHsKICAgIHRpdGxlOiAnQnVrYSBQREYgR2FtYmFyJywKICAgIGZpbHRlcnM6IFt7IG5hbWU6ICdQREYnLCBleHRlbnNpb25zOiBbJ3BkZiddIH1dLAogICAgcHJvcGVydGllczogWydvcGVuRmlsZSddLAogIH0pOwogIGlmIChyZXN1bHQuY2FuY2VsZWQgfHwgcmVzdWx0LmZpbGVQYXRocy5sZW5ndGggPT09IDApIHJldHVybiB7IGNhbmNlbGVkOiB0cnVlIH07CiAgY29uc3QgZmlsZVBhdGggPSByZXN1bHQuZmlsZVBhdGhzWzBdOwogIGNvbnN0IGRhdGEgPSBhd2FpdCBmcy5wcm9taXNlcy5yZWFkRmlsZShmaWxlUGF0aCk7CiAgcmV0dXJuIHsgY2FuY2VsZWQ6IGZhbHNlLCBmaWxlUGF0aCwgZmlsZU5hbWU6IHBhdGguYmFzZW5hbWUoZmlsZVBhdGgpLCBkYXRhIH07Cn0pOwoKaXBjTWFpbi5oYW5kbGUoJ2RpYWxvZzpzYXZlUGRmJywgYXN5bmMgKF9ldmVudCwgZGVmYXVsdE5hbWUpID0+IHsKICBjb25zdCByZXN1bHQgPSBhd2FpdCBkaWFsb2cuc2hvd1NhdmVEaWFsb2cobWFpbldpbmRvdywgewogICAgdGl0bGU6ICdTaW1wYW4gUERGIEhhc2lsJywKICAgIGRlZmF1bHRQYXRoOiBkZWZhdWx0TmFtZSB8fCAnYnViYmxlLWluc3Bla3NpLnBkZicsCiAgICBmaWx0ZXJzOiBbeyBuYW1lOiAnUERGJywgZXh0ZW5zaW9uczogWydwZGYnXSB9XSwKICB9KTsKICBpZiAocmVzdWx0LmNhbmNlbGVkIHx8ICFyZXN1bHQuZmlsZVBhdGgpIHJldHVybiB7IGNhbmNlbGVkOiB0cnVlIH07CiAgcmV0dXJuIHsgY2FuY2VsZWQ6IGZhbHNlLCBmaWxlUGF0aDogcmVzdWx0LmZpbGVQYXRoIH07Cn0pOwoKaXBjTWFpbi5oYW5kbGUoJ2ZpbGU6d3JpdGUnLCBhc3luYyAoX2V2ZW50LCBmaWxlUGF0aCwgZGF0YSkgPT4gewogIGF3YWl0IGZzLnByb21pc2VzLndyaXRlRmlsZShmaWxlUGF0aCwgQnVmZmVyLmZyb20oZGF0YSkpOwogIHJldHVybiB7IG9rOiB0cnVlIH07Cn0pOwoKaXBjTWFpbi5oYW5kbGUoJ2ZpbGU6cmVhZCcsIGFzeW5jIChfZXZlbnQsIGZpbGVQYXRoKSA9PiB7CiAgY29uc3QgZGF0YSA9IGF3YWl0IGZzLnByb21pc2VzLnJlYWRGaWxlKGZpbGVQYXRoKTsKICByZXR1cm4geyBmaWxlUGF0aCwgZmlsZU5hbWU6IHBhdGguYmFzZW5hbWUoZmlsZVBhdGgpLCBkYXRhIH07Cn0pOwo=
+const { app, BrowserWindow, Menu, dialog, ipcMain } = require('electron');
+const path = require('path');
+const fs = require('fs');
+
+let mainWindow = null;
+
+function createWindow() {
+  mainWindow = new BrowserWindow({
+    width: 1280,
+    height: 800,
+    minWidth: 900,
+    minHeight: 600,
+    title: 'Bubble Inspeksi',
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
+      contextIsolation: true,
+      nodeIntegration: false,
+    },
+  });
+
+  mainWindow.loadFile(path.join(__dirname, 'renderer', 'index.html'));
+
+  const template = [
+    {
+      label: 'File',
+      submenu: [
+        {
+          label: 'Buka PDF...',
+          accelerator: 'CmdOrCtrl+O',
+          click: () => mainWindow.webContents.send('menu-open-pdf'),
+        },
+        {
+          label: 'Ekspor PDF...',
+          accelerator: 'CmdOrCtrl+E',
+          click: () => mainWindow.webContents.send('menu-export-pdf'),
+        },
+        { type: 'separator' },
+        { label: 'Keluar', accelerator: 'CmdOrCtrl+Q', role: 'quit' },
+      ],
+    },
+    {
+      label: 'Tampilan',
+      submenu: [
+        {
+          label: 'Perbesar',
+          accelerator: 'CmdOrCtrl+=',
+          click: () => mainWindow.webContents.send('menu-zoom-in'),
+        },
+        {
+          label: 'Perkecil',
+          accelerator: 'CmdOrCtrl+-',
+          click: () => mainWindow.webContents.send('menu-zoom-out'),
+        },
+        {
+          label: 'Pas ke Lebar',
+          accelerator: 'CmdOrCtrl+0',
+          click: () => mainWindow.webContents.send('menu-zoom-fit'),
+        },
+      ],
+    },
+    {
+      label: 'Bantuan',
+      submenu: [
+        {
+          label: 'Tentang Bubble Inspeksi',
+          click: () => {
+            dialog.showMessageBox(mainWindow, {
+              type: 'info',
+              title: 'Tentang Bubble Inspeksi',
+              message: 'Bubble Inspeksi 1.0.0',
+              detail:
+                'Beri nomor bubble pada gambar PDF dan ekspor hasilnya ke PDF.\n' +
+                'Klik pada gambar untuk memasang bubble bernomor otomatis.',
+            });
+          },
+        },
+      ],
+    },
+  ];
+  Menu.setApplicationMenu(Menu.buildFromTemplate(template));
+}
+
+app.whenReady().then(() => {
+  createWindow();
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+  });
+});
+
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit();
+});
+
+ipcMain.handle('dialog:openPdf', async () => {
+  const result = await dialog.showOpenDialog(mainWindow, {
+    title: 'Buka PDF Gambar',
+    filters: [{ name: 'PDF', extensions: ['pdf'] }],
+    properties: ['openFile'],
+  });
+  if (result.canceled || result.filePaths.length === 0) return { canceled: true };
+  const filePath = result.filePaths[0];
+  const data = await fs.promises.readFile(filePath);
+  return { canceled: false, filePath, fileName: path.basename(filePath), data };
+});
+
+ipcMain.handle('dialog:savePdf', async (_event, defaultName) => {
+  const result = await dialog.showSaveDialog(mainWindow, {
+    title: 'Simpan PDF Hasil',
+    defaultPath: defaultName || 'bubble-inspeksi.pdf',
+    filters: [{ name: 'PDF', extensions: ['pdf'] }],
+  });
+  if (result.canceled || !result.filePath) return { canceled: true };
+  return { canceled: false, filePath: result.filePath };
+});
+
+ipcMain.handle('file:write', async (_event, filePath, data) => {
+  await fs.promises.writeFile(filePath, Buffer.from(data));
+  return { ok: true };
+});
+
+ipcMain.handle('file:read', async (_event, filePath) => {
+  const data = await fs.promises.readFile(filePath);
+  return { filePath, fileName: path.basename(filePath), data };
+});
