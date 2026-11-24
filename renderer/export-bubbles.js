@@ -1,1 +1,65 @@
-LyogR2FtYmFyIGJ1YmJsZSBub21vciBrZSBQREYgaGFzaWwgZGVuZ2FuIHBkZi1saWIuCiAgIHBkZkJ5dGVzOiBpc2kgZmlsZSBQREYgYXNsaSAoVWludDhBcnJheSkuCiAgIGJ1YmJsZXM6IGFycmF5IHsgcGFnZSAoMS1iYXNlZCksIHgsIHkgKHBlY2FoYW4gMC4uMSksIGxhYmVsIH0uCiAgIG9wdHM6IHsgZGlhbWV0ZXJQdCwgY29sb3IgfSDigJQgZGlhbWV0ZXIgbGluZ2thcmFuIGRhbGFtIHBvaW4gUERGLAogICAgICAgICB3YXJuYSBnYXJpcy90ZWtzIHNlYmFnYWkgW3IsIGcsIGJdIDAuLjEuCiAgIE1lbmdlbWJhbGlrYW4gVWludDhBcnJheSBQREYgYmFydS4gTXVybmksIGJpc2EgZGl1amkgZGkgTm9kZS4gKi8KKGZ1bmN0aW9uIChyb290LCBmYWN0b3J5KSB7CiAgY29uc3QgYXBpID0gZmFjdG9yeSgpOwogIGlmICh0eXBlb2YgbW9kdWxlICE9PSAndW5kZWZpbmVkJyAmJiBtb2R1bGUuZXhwb3J0cykgbW9kdWxlLmV4cG9ydHMgPSBhcGk7CiAgZWxzZSByb290LkJ1YmJsZUV4cG9ydCA9IGFwaTsKfSkodHlwZW9mIHNlbGYgIT09ICd1bmRlZmluZWQnID8gc2VsZiA6IHRoaXMsIGZ1bmN0aW9uICgpIHsKICBmdW5jdGlvbiBnZXRMaWIoKSB7CiAgICBpZiAodHlwZW9mIFBERkxpYiAhPT0gJ3VuZGVmaW5lZCcpIHJldHVybiBQREZMaWI7CiAgICBpZiAodHlwZW9mIHJlcXVpcmUgPT09ICdmdW5jdGlvbicpIHJldHVybiByZXF1aXJlKCdwZGYtbGliJyk7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ3BkZi1saWIgdGlkYWsgdGVyc2VkaWEnKTsKICB9CgogIGZ1bmN0aW9uIGhleFRvUmdiKGhleCkgewogICAgY29uc3QgaCA9IFN0cmluZyhoZXggfHwgJyNkMzJmMmYnKS5yZXBsYWNlKCcjJywgJycpOwogICAgY29uc3QgdiA9IHBhcnNlSW50KGgubGVuZ3RoID09PSAzID8gaC5zcGxpdCgnJykubWFwKChjKSA9PiBjICsgYykuam9pbignJykgOiBoLCAxNik7CiAgICByZXR1cm4gWyh2ID4+IDE2ICYgMjU1KSAvIDI1NSwgKHYgPj4gOCAmIDI1NSkgLyAyNTUsICh2ICYgMjU1KSAvIDI1NV07CiAgfQoKICBhc3luYyBmdW5jdGlvbiBleHBvcnRXaXRoQnViYmxlcyhwZGZCeXRlcywgYnViYmxlcywgb3B0cykgewogICAgY29uc3QgeyBQREZEb2N1bWVudCwgU3RhbmRhcmRGb250cywgcmdiIH0gPSBnZXRMaWIoKTsKICAgIGNvbnN0IG9wdGlvbnMgPSBPYmplY3QuYXNzaWduKHsgZGlhbWV0ZXJQdDogMjEsIGNvbG9yOiBbMC44MywgMC4xMSwgMC4xNl0gfSwgb3B0cyB8fCB7fSk7CiAgICBjb25zdCBkb2MgPSBhd2FpdCBQREZEb2N1bWVudC5sb2FkKHBkZkJ5dGVzKTsKICAgIGNvbnN0IGZvbnQgPSBhd2FpdCBkb2MuZW1iZWRGb250KFN0YW5kYXJkRm9udHMuSGVsdmV0aWNhQm9sZCk7CiAgICBjb25zdCBwYWdlcyA9IGRvYy5nZXRQYWdlcygpOwogICAgY29uc3QgcmFkaXVzID0gb3B0aW9ucy5kaWFtZXRlclB0IC8gMjsKICAgIGNvbnN0IHdoaXRlID0gcmdiKDEsIDEsIDEpOwoKICAgIGZvciAoY29uc3QgYiBvZiBidWJibGVzKSB7CiAgICAgIGNvbnN0IHBhZ2UgPSBwYWdlc1tiLnBhZ2UgLSAxXTsKICAgICAgaWYgKCFwYWdlKSBjb250aW51ZTsKICAgICAgY29uc3QgeyB3aWR0aCwgaGVpZ2h0IH0gPSBwYWdlLmdldFNpemUoKTsKICAgICAgY29uc3QgY3ggPSBiLnggKiB3aWR0aDsKICAgICAgY29uc3QgY3kgPSAoMSAtIGIueSkgKiBoZWlnaHQ7IC8vIHkgUERGIGRpaGl0dW5nIGRhcmkgYmF3YWgKICAgICAgY29uc3QgYyA9IGIuY29sb3JIZXggPyBoZXhUb1JnYihiLmNvbG9ySGV4KSA6IG9wdGlvbnMuY29sb3I7CiAgICAgIGNvbnN0IGNvbG9yID0gcmdiKGNbMF0sIGNbMV0sIGNbMl0pOwogICAgICBwYWdlLmRyYXdDaXJjbGUoewogICAgICAgIHg6IGN4LAogICAgICAgIHk6IGN5LAogICAgICAgIHNpemU6IHJhZGl1cywKICAgICAgICBib3JkZXJDb2xvcjogY29sb3IsCiAgICAgICAgYm9yZGVyV2lkdGg6IDEuNSwKICAgICAgICBjb2xvcjogd2hpdGUsCiAgICAgICAgb3BhY2l0eTogMSwKICAgICAgfSk7CiAgICAgIGNvbnN0IHRleHQgPSBTdHJpbmcoYi5sYWJlbCk7CiAgICAgIGNvbnN0IGZvbnRTaXplID0gTWF0aC5tYXgoOCwgb3B0aW9ucy5kaWFtZXRlclB0ICogMC41Mik7CiAgICAgIGNvbnN0IHRleHRXaWR0aCA9IGZvbnQud2lkdGhPZlRleHRBdFNpemUodGV4dCwgZm9udFNpemUpOwogICAgICBwYWdlLmRyYXdUZXh0KHRleHQsIHsKICAgICAgICB4OiBjeCAtIHRleHRXaWR0aCAvIDIsCiAgICAgICAgeTogY3kgLSBmb250U2l6ZSAqIDAuMzUsCiAgICAgICAgc2l6ZTogZm9udFNpemUsCiAgICAgICAgZm9udCwKICAgICAgICBjb2xvciwKICAgICAgfSk7CiAgICB9CiAgICByZXR1cm4gZG9jLnNhdmUoKTsKICB9CgogIHJldHVybiB7IGV4cG9ydFdpdGhCdWJibGVzIH07Cn0pOwo=
+/* Gambar bubble nomor ke PDF hasil dengan pdf-lib.
+   pdfBytes: isi file PDF asli (Uint8Array).
+   bubbles: array { page (1-based), x, y (pecahan 0..1), label }.
+   opts: { diameterPt, color } — diameter lingkaran dalam poin PDF,
+         warna garis/teks sebagai [r, g, b] 0..1.
+   Mengembalikan Uint8Array PDF baru. Murni, bisa diuji di Node. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.BubbleExport = api;
+})(typeof self !== 'undefined' ? self : this, function () {
+  function getLib() {
+    if (typeof PDFLib !== 'undefined') return PDFLib;
+    if (typeof require === 'function') return require('pdf-lib');
+    throw new Error('pdf-lib tidak tersedia');
+  }
+
+  function hexToRgb(hex) {
+    const h = String(hex || '#d32f2f').replace('#', '');
+    const v = parseInt(h.length === 3 ? h.split('').map((c) => c + c).join('') : h, 16);
+    return [(v >> 16 & 255) / 255, (v >> 8 & 255) / 255, (v & 255) / 255];
+  }
+
+  async function exportWithBubbles(pdfBytes, bubbles, opts) {
+    const { PDFDocument, StandardFonts, rgb } = getLib();
+    const options = Object.assign({ diameterPt: 21, color: [0.83, 0.11, 0.16] }, opts || {});
+    const doc = await PDFDocument.load(pdfBytes);
+    const font = await doc.embedFont(StandardFonts.HelveticaBold);
+    const pages = doc.getPages();
+    const radius = options.diameterPt / 2;
+    const white = rgb(1, 1, 1);
+
+    for (const b of bubbles) {
+      const page = pages[b.page - 1];
+      if (!page) continue;
+      const { width, height } = page.getSize();
+      const cx = b.x * width;
+      const cy = (1 - b.y) * height; // y PDF dihitung dari bawah
+      const c = b.colorHex ? hexToRgb(b.colorHex) : options.color;
+      const color = rgb(c[0], c[1], c[2]);
+      page.drawCircle({
+        x: cx,
+        y: cy,
+        size: radius,
+        borderColor: color,
+        borderWidth: 1.5,
+        color: white,
+        opacity: 1,
+      });
+      const text = String(b.label);
+      const fontSize = Math.max(8, options.diameterPt * 0.52);
+      const textWidth = font.widthOfTextAtSize(text, fontSize);
+      page.drawText(text, {
+        x: cx - textWidth / 2,
+        y: cy - fontSize * 0.35,
+        size: fontSize,
+        font,
+        color,
+      });
+    }
+    return doc.save();
+  }
+
+  return { exportWithBubbles };
+});
